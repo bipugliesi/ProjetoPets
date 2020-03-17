@@ -1,0 +1,35 @@
+body, a {
+    color: #323232;
+}
+.barra-superior, .menu-principal{
+    display: flex;
+}
+
+/* BARRA SUPERIOR / MENU PRINCIPAL */
+.barra-superior {
+    background-color: #FF9721;
+    align-items: center;
+    /* min-height: 15vh; */
+}
+.menu-principal{
+    align-items: center;
+    flex-grow: 3;
+}
+.menu-principal ul{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.menu-principal li {
+    list-style: none;
+    padding: 0 15px;
+}
+.botoes-login {
+    flex-grow: 2;
+}
+.botoes-login button {
+    width: 12vw;
+}
+.botao-entrar {
+    background-color: #f9f9f9;
+}
