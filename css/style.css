@@ -33,3 +33,9 @@ body, a {
 .botao-entrar {
     background-color: #f9f9f9;
 }
+
+/* CARROSSEL */
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    padding: 40px;
+}
