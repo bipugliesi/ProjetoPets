@@ -120,3 +120,35 @@ ul li a:hover {
     color: #000;
     background-color: #3D9194;
 }
+
+
+ /* RODAPÉ */
+ 
+ .container-rodape {
+     min-height: 220px;
+     padding: 20px;
+     background-color: #3D9194;
+ }
+.menu-rodape {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-rodape ul {
+    list-style-type: none;
+}
+.menu-rodape li {
+    padding: 17px;
+    font-weight: 600;
+}
+.direita-rodape {
+    text-align: end;
+}
+.icone-social {
+    width: 32px;
+    height: 32px;
+    margin: 12px;
+}
+.titulo-negrito {
+    font-weight: 700;
+    font-size: 1.9rem;
+}
