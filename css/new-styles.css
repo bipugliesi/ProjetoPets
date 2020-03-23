@@ -1,0 +1,107 @@
+nav {
+  background: #ff9721;
+}
+
+nav * {
+  color: #fff;
+}
+
+nav a:hover {
+  color: #ececec;
+}
+
+.btn-area * {
+  margin-left: 5px;
+}
+
+.hero {
+  background: url('../img/banner-cachorro-v1.png');
+  background-size: cover;
+  height: 400px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero .message {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.pet-card img {
+  width: 80%;
+  height: 300px;
+}
+
+.btn-orange {
+  color: #fff;
+  background-color: #ff9721;
+}
+
+.btn-yellow {
+  color: #fff;
+  background-color: #ffc107;
+}
+
+.btn-yellow:hover {
+  color: #fff;
+  background-color: #ff9721;
+}
+
+.preview-petsPerdidos, .preview-petsAdocao ,.conheca-mais.row{
+  margin-bottom: 15px;
+}
+
+
+
+.conheca-mais .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 40%;
+}
+
+.imagem-lateral {
+  width: 100%;
+}
+
+.footer {
+  background-color: #3d9194;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .redes-sociais {
+  margin-right: 10px;
+}
+
+@media(max-width: 990px) {
+   .hero {
+    height: unset;
+
+  }
+}
+
+.botao-medio-verde {
+  color: #000;
+  font-weight: 500;
+  padding: 15px 80px;
+  margin: 10px 0;
+  border: none;
+  background-color: #4BDBB7;
+}
+
+.botao-medio-verde:hover {
+  color: #FFF;
+  background-color: #3D9194;
+}
+
+@media(max-width: 440px) { 
+  .conheca-mais .info {
+    width: unset;
+  }
+} 

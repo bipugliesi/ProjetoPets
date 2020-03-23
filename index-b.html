@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/new-styles.css" />
+    <title>PetAqui</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img src="./img/logo-transparente.png" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon white">☰</span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Página Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pets perdidos/encontrados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pets para adoção</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav btn-area">
+          <li class="nav-item">
+            <button class="btn btn-outline-info bg-white">Entrar</button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-info">Criar conta</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container">
+
+      <div class="hero col-12">
+        <!-- <img src="./img/banner-cachorro-v1.png" /> -->
+        <div class="message">
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur erat turpis.</span>
+          <button class="btn btn-orange">Adotar</button>
+        </div>
+      </div>
+
+      <div class="preview-petsPerdidos">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="text-center">Últimos Pets Perdidos/Encontrados</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 text-center">
+            <div class="pet-card">
+              <img src="img/dog-encontrado-02.png" >
+              <p class="text-center">Doguinho name</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 text-center">
+            <div class="pet-card">
+              <img src="img/dog-encontrado-02.png" >
+              <p class="text-center">Doguinho name</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 text-center">
+            <div class="pet-card">
+              <img src="img/dog-encontrado-02.png" >
+              <p class="text-center">Doguinho name</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 text-center">
+            <div class="pet-card">
+              <img src="img/dog-encontrado-02.png" >
+              <p class="text-center">Doguinho name</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <button class="btn btn-yellow">Ver todos</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-petsAdocao">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="text-center">Últimos Pets Perdidos</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 text-center">
+            <div class="pet-card">
+              <img src="img/dog-encontrado-02.png" >
+              <p class="text-center">Doguinho name</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 text-center">
+            <div class="pet-card">
+              <img src="img/dog-encontrado-02.png" >
+              <p class="text-center">Doguinho name</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 text-center">
+            <div class="pet-card">
+              <img src="img/dog-encontrado-02.png" >
+              <p class="text-center">Doguinho name</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 text-center">
+            <div class="pet-card">
+              <img src="img/dog-encontrado-02.png" >
+              <p class="text-center">Doguinho name</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <button class="btn btn-yellow">Ver todos</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="conheca-mais row">
+        <div class="col-md-8 col-sm-12 info">
+          <div>
+            <h2>Como posso ajudar?</h2>
+          <br>
+          <p>
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem commodi consectetur minus adipisci porro eos placeat est ullam dolorum accusamus corporis iste.</span>
+            <span>Quaerat rem odit aut eaque lumenda dolor quod omnis?</span>
+          </p>
+          <button class="btn btn-primary botao-medio-verde">CONHECER MAIS</button>
+          </div>
+          
+          
+        </div>
+        <div class="col-4 d-none d-sm-block">
+          <img src="./img/banner-cachorro-v3.png" alt="banner-cachorro" class="imagem-lateral">
+        </div>
+      </div>
+
+    </main>
+    <footer class="footer">
+      <a class="navbar-brand" href="#">
+        <img src="./img/logo-transparente.png" />
+      </a>
+      <div class="redes-sociais">
+        <img src="./img/facebook.png" alt="" class="icone-social">
+        <img src="./img/instagram.png" alt="" class="icone-social">
+        <img src="./img/twitter.png" alt="" class="icone-social">
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
+</html>
